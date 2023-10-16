@@ -25,6 +25,10 @@ class Assets {
   /// assets/images/stips_shutter.jpg
   static const String assetsImagesStipsShutter = "assets/images/stips_shutter.jpg";
 
+  /// Assets for assetsImagesStipsSplash
+  /// assets/images/stips_splash.gif
+  static const String assetsImagesStipsSplash = "assets/images/stips_splash.gif";
+
   /// Assets for assetsImagesTravellOnboarding
   /// assets/images/travell_onboarding.jpg
   static const String assetsImagesTravellOnboarding = "assets/images/travell_onboarding.jpg";
