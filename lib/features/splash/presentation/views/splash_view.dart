@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:stips_demo/core/functions/navigation.dart';
-import 'package:stips_demo/features/on_boarding/presentation/views/widgets/custom_sized_box.dart';
+import 'package:stips_demo/features/splash/presentation/views/widgets/custom_sized_box.dart';
 class SplashView extends StatefulWidget {
   const SplashView({super.key});
   @override
@@ -12,7 +12,7 @@ class _SplashViewState extends State<SplashView> {
     Future.delayed(
       const Duration(seconds: 3),
       (){
-         customNavigate(context,"/onboarding")  ;
+         customReplacementNavigate(context,"/onboarding")  ;
       }
     );
   super.initState();

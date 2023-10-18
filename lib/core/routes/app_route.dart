@@ -8,5 +8,6 @@ builder: (context, state) =>const SplashView(),
 ),
 GoRoute(path: "/onboarding",
 builder: (context, state) =>const OnBoardingView(),
-)
+),
+
 ]);

@@ -8,5 +8,14 @@ abstract class CustomTextStyle {
     fontWeight: FontWeight.w900,
     fontFamily: "Poppins",
     
+    
+  );
+    static final pacifco900style28 = TextStyle(
+    fontSize: 28,
+    color: AppColors.lightBlue,
+    fontWeight: FontWeight.w900,
+    fontFamily: "Pacifico",
+    
+    
   );
 }

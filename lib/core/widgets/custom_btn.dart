@@ -1,22 +1,17 @@
-import 'package:flutter/material.dart';
-import 'package:stips_demo/core/utils/app_colors.dart';
-import 'package:stips_demo/core/utils/app_strings.dart';
-import 'package:stips_demo/core/utils/app_text_styles.dart';
 
+
+import 'package:flutter/material.dart';
 class CustomBtn extends StatelessWidget {
-  const CustomBtn({super.key});
+  const CustomBtn({super.key,  this.btnText,  this.onPressed, this.color,});
+  final Color? color ;
+  final String? btnText;
+  final Function()? onPressed;
 
   @override
   Widget build(BuildContext context) {
-    return SizedBox(
-      width: double.infinity,
-      height: 56,
-      child: ElevatedButton(onPressed: (){},
-      style: ElevatedButton.styleFrom(
-        backgroundColor: AppColors.primaryColor,
-        
-      ), child:Text(APPsTRINGS.skip,
-      style: CustomTextStyle.poppins200style22.copyWith(fontWeight: FontWeight.w400),)),
+    return const Padding(
+      padding: EdgeInsets.all(8.0),
+
     );
   }
-}
+} 
