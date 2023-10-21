@@ -10,11 +10,19 @@ abstract class CustomTextStyle {
     
     
   );
-    static final pacifco900style28 = TextStyle(
+    static final ptans900style28 = TextStyle(
     fontSize: 28,
-    color: AppColors.lightBlue,
-    fontWeight: FontWeight.w900,
-    fontFamily: "Pacifico",
+    color: AppColors.offWhite,
+    fontWeight: FontWeight.w700,
+    fontFamily: "PTSans",
+    
+    
+  );
+      static final caveat900style28 = TextStyle(
+    fontSize: 28,
+    color: AppColors.offWhite,
+    fontWeight: FontWeight.w700,
+    fontFamily: "Caveat",
     
     
   );

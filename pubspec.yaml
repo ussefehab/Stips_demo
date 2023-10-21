@@ -83,10 +83,12 @@ flutter:
     - family: Poppins
       fonts:
         - asset: assets/fonts/Poppins-Regular.ttf
-    - family: Pacifico
+    - family: PTSans
       fonts:
-        - asset: assets/fonts/Pacifico-Regular.ttf    
-
+        - asset: assets/fonts/PTSans-BoldItalic.ttf 
+    - family: Caveat
+      fonts:
+        - asset: assets/fonts/Caveat-VariableFont_wght.ttf 
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages

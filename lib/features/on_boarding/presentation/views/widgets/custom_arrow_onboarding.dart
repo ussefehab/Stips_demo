@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:stips_demo/features/on_boarding/presentation/views/widgets/consumed_icon_button_onboarding.dart';
-
 class CustomArrow extends StatelessWidget {
-  const CustomArrow({super.key});
-
+  const CustomArrow({super.key,  this.onPressed});
+  final VoidCallback? onPressed;
   @override
   Widget build(BuildContext context) {
     return Column(mainAxisAlignment: MainAxisAlignment.end, children: [
@@ -21,7 +19,13 @@ class CustomArrow extends StatelessWidget {
               color: const Color.fromARGB(255, 213, 211, 211),
             ),
             child: 
-            const ConsumedIconButtonOnBoarding(),
+            IconButton(
+        onPressed: onPressed,
+        icon: const Icon(
+          Icons.arrow_forward_ios_outlined,
+          size: 30,
+          color: Color.fromARGB(255, 58, 58, 58),
+        ))
           ),
         ],
       ),
