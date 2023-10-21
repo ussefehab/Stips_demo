@@ -2,10 +2,7 @@ abstract class APPsTRINGS{
   // todo:allstrings
   static const String appName = "Stips",
   //on boarding strings
-  skip = "Skip",
-  next="Next",
-  createAccount = "Create Account",
-  loginNow ="Login Now",
+  getStarted = "Get Started",
   // AUTH STRINGS
   welcome = "Welcome",
   welcomeBack = "Welcome Back !",

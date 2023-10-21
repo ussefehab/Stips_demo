@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:stips_demo/core/utils/app_strings.dart';
 import 'package:stips_demo/core/utils/app_text_styles.dart';
 class CustomGradientBtn extends StatelessWidget {
   const CustomGradientBtn({super.key, this.onTap});
@@ -23,7 +24,7 @@ class CustomGradientBtn extends StatelessWidget {
                   Color.fromARGB(255, 115, 57, 203)
                 ])
               ),
-              child: Center(child :Text("Get Started",
+              child: Center(child :Text(APPsTRINGS.getStarted,
               style: CustomTextStyle.ptans900style28.copyWith(fontSize: 22),
               ),)),
             ),
