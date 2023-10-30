@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:stips_demo/core/functions/navigation.dart';
 import 'package:stips_demo/features/on_boarding/data/models/on_boarding_models.dart';
+import 'package:stips_demo/features/on_boarding/presentation/views/functions/on_boarding.dart';
 import 'package:stips_demo/features/on_boarding/presentation/views/widgets/custom_arrow_onboarding.dart';
 import 'package:stips_demo/features/on_boarding/presentation/views/widgets/custom_gradient_btn.dart';
 
@@ -14,6 +15,7 @@ class GetButton extends StatelessWidget {
     if (currentIndex == onBoardingData.length - 1) {
       return CustomGradientBtn(
         onTap: () {
+          onBoardingVisited();
           customReplacementNavigate(context, "/signup");
         },
       );
@@ -25,4 +27,6 @@ class GetButton extends StatelessWidget {
       });
     }
   }
+
+
 }
