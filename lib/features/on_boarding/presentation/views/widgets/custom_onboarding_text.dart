@@ -21,7 +21,7 @@ class CustomOnBoardingText extends StatelessWidget {
              children: [
                Text (
                  onBoardingData[index].title,
-                  style: CustomTextStyle.ptans900style28.copyWith(fontSize: 60),
+                  style: CustomTextStyle.ptans700style28.copyWith(fontSize: 60),
                   
                 
                 ),
@@ -30,12 +30,12 @@ class CustomOnBoardingText extends StatelessWidget {
            Row(mainAxisAlignment: MainAxisAlignment.start,
              children: [
                Text(onBoardingData[index].subTitle,
-                  style: CustomTextStyle.ptans900style28.copyWith(fontSize: 60, ),
+                  style: CustomTextStyle.ptans700style28.copyWith(fontSize: 60, ),
             textAlign: TextAlign.left,
                   
                 ),
                                              Text(onBoardingData[index].subSubSubTitle,
-                  style: CustomTextStyle.ptans900style28.copyWith(fontSize: 65, color: AppColors.purple),
+                  style: CustomTextStyle.ptans700style28.copyWith(fontSize: 65, color: AppColors.purple),
             textAlign: TextAlign.left,
                   
                 ),
@@ -45,7 +45,7 @@ class CustomOnBoardingText extends StatelessWidget {
                    Row(mainAxisAlignment: MainAxisAlignment.start,
                      children: [
        Text(onBoardingData[index].subSubTitle,
-              style: CustomTextStyle.ptans900style28.copyWith(fontSize: 20, color: AppColors.offWhite),
+              style: CustomTextStyle.ptans700style28.copyWith(fontSize: 20, color: AppColors.offWhite),
             textAlign: TextAlign.left,
               
             ),

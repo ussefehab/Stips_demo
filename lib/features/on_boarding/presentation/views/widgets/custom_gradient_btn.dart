@@ -25,7 +25,7 @@ class CustomGradientBtn extends StatelessWidget {
                 ])
               ),
               child: Center(child :Text(APPsTRINGS.getStarted,
-              style: CustomTextStyle.ptans900style28.copyWith(fontSize: 22),
+              style: CustomTextStyle.ptans700style28.copyWith(fontSize: 22),
               ),)),
             ),
           

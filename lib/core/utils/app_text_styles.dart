@@ -3,14 +3,14 @@ import 'package:stips_demo/core/utils/app_colors.dart';
 
 abstract class CustomTextStyle {
   static final poppins200style22 = TextStyle(
-    fontSize: 30,
+    fontSize: 22,
     color: AppColors.offWhite,
-    fontWeight: FontWeight.w900,
+    fontWeight: FontWeight.w200,
     fontFamily: "Poppins",
     
     
   );
-    static final ptans900style28 = TextStyle(
+    static final ptans700style28 = TextStyle(
     fontSize: 28,
     color: AppColors.offWhite,
     fontWeight: FontWeight.w700,
@@ -18,7 +18,7 @@ abstract class CustomTextStyle {
     
     
   );
-      static final caveat900style28 = TextStyle(
+      static final caveat700style28 = TextStyle(
     fontSize: 28,
     color: AppColors.offWhite,
     fontWeight: FontWeight.w700,
